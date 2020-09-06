@@ -1,0 +1,20 @@
+.title {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+.item {
+  width: 185px;
+}
+
+.item:nth-child(n + 4) {
+  width: 560px;
+}
